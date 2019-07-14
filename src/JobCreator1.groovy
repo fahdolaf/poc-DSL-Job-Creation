@@ -55,7 +55,7 @@ if (jobTimeoutString.isEmpty()) {
 if (!jobTemplate.isEmpty()) {
 job(jobName) {
     using("${jobTemplate}")
-CRA5  Q    disabled(false)
+    disabled(false)
     description("${jobDescription}")
     if (specificNode != null) {
         label("${specificNode}")
