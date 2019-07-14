@@ -85,24 +85,24 @@ job(jobName) {
         git {
             remote {
                 name('origin')
-                    url(reqiredToolsURL)
-                    credentials(Git_credentials)
-            }
-            branch('master')
-            extensions {
-                relativeTargetDirectory(reqiredTools)
-            }
-        }
-       }
-        git {
-            remote {
-                name('origin')
                     url(reqiredPrjtURL)
                     credentials(Git_credentials)
             }
             branch('master')
             extensions {
                 relativeTargetDirectory(reqiredPrj)
+            }
+        }
+       }
+        git {
+            remote {
+                name('origin')
+                    url(reqiredToolsURL)
+                    credentials(Git_credentials)
+            }
+            branch('master')
+            extensions {
+                relativeTargetDirectory(reqiredTools)
             }
         }
 
