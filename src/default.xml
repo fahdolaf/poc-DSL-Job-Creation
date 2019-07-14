@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<remote name="gitlab-poc-sw" fetch="https://github.com/fahdolaf/" />
+
+	<default remote="gitlab-poc-sw" revision="master"/>
+
+	<!-- Package repositories -->
+    <project name="play_kernel" type="pkg" reqiredPrj='playProject' path="play_kernel_pkg"/>
+    <project name="playProject"  type="pkg" />
+	
+</manifest>
