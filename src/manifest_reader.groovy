@@ -12,8 +12,8 @@ if (config_file == null) {
 println config_file
 //assert config_file?.trim() != null, "Environment variable CONFIG_FILE not set or empty!"
 
-//def manifest = new XmlSlurper().parse('/var/lib/jenkins/workspace/poc-manifest-reader/manifest/default.xml')
-def manifest = new XmlSlurper().parse(config_file)
+def manifest = new XmlSlurper().parse('/var/lib/jenkins/workspace/POC-manifest-reader/src/default.xml')
+//def manifest = new XmlSlurper().parse(config_file)
 
 //manifest.remote.each{ jobConfig ->
 //    def fetch_URL = jobConfig.@fetch.text()
