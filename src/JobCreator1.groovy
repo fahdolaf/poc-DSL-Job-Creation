@@ -6,8 +6,8 @@ for (String project_Name : project_Names) {
 
 def fetch_URL = 'https://github.com/fahdolaf/'
 //def project_Name = 'playProject'
-def reqiredPrj = ""
-def reqiredTools  = 'play_kernel'
+def reqiredPrj = 'play_kernel'
+def reqiredTools  = 'play_tools'
 def Git_credentials = 'e764954a-6484-4515-91db-bdc151316cbb'
 
 def productPrefix = "POC-DSL"
