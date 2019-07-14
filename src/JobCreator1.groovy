@@ -81,7 +81,7 @@ job(jobName) {
                 relativeTargetDirectory(project_Name)
             }
         }
-       // if (!reqiredPrj.isEmpty()) {
+       if (!reqiredPrj.isEmpty()) {
         git {
             remote {
                 name('origin')
@@ -93,7 +93,7 @@ job(jobName) {
                 relativeTargetDirectory(reqiredTools)
             }
         }
-       // }
+       }
         git {
             remote {
                 name('origin')
