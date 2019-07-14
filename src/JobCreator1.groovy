@@ -4,7 +4,7 @@ def project_Names = ['play_kernel', 'playProject']
 
 for (String project_Name : project_Names) {
 
-def fetch_URL = 'https://github.com/fahdolaf'
+def fetch_URL = 'https://github.com/fahdolaf/'
 //def project_Name = 'playProject'
 def reqiredPrj = ''
 def reqiredTools  = 'play_kernel'
